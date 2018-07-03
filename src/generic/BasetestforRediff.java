@@ -24,8 +24,9 @@ public class BasetestforRediff implements Auto_constant{
 			System.setProperty(Gecko_key1, Gecko_value1);
 			driver=new ChromeDriver();
 		}
+		System.setProperty(Gecko_key1, Gecko_value1);
+		driver=new ChromeDriver();
 		
-		
-		driver.get(url);
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 }
 }
